@@ -43,18 +43,14 @@ a {
   font-size: 25px;
 }
 
+header nav a:hover {
+  text-shadow: 3px 3px 5px #8ba888;
+  transition: all 0.3s ease-in-out;
+}
+
 a:hover {
   text-shadow: 3px 3px 5px #44624a;
-}
-
-ul li:hover {
-  text-shadow: 3px 3px 5px #f7f9f9;
-  transition-delay: 0.2s;
-}
-
-.info-list:hover {
-  box-shadow: 0 0 20px #f1ebe1;
-  transition-delay: 0.2;
+  transition: all 0.3s ease-in-out;
 }
 
 .banner {
@@ -75,6 +71,7 @@ ul li:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 80px;
 }
 
 body {
@@ -96,11 +93,13 @@ p {
 }
 
 .info-list {
+  width: 100%;
   margin-bottom: 20px;
   padding: 50px;
   font-family: "Josefin Sans", sans-serif;
   background-color: #8ba888;
   color: #41463c;
+  font-size: 25px;
 }
 
 #about-me {
@@ -122,8 +121,8 @@ p {
 }
 
 #avatar {
-  max-height: 300px;
-  margin: 25px;
+  max-height: 400px;
+  margin: 30px;
 }
 
 .info-list h2 {
@@ -143,16 +142,29 @@ p {
 }
 
 .screenshot {
-  max-height: 300px;
-  margin-left: 25px;
+  height: 100%;
+  max-height: 400px;
+  margin-top: 5px 10px 20px;
+  justify-content: center;
+  flex: 1 0 200px;
+}
+
+.flex-screenshot {
   width: 100%;
-  min-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.flex-screenshot figure {
+  flex: 1 0 50%;
 }
 
 .screenshot:hover {
   color: #111;
   background: #f7f9f9;
   box-shadow: 0 0 20px #f7f9f9;
+  transition: all 0.3s ease-in-out;
 }
 
 footer {
