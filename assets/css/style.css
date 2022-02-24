@@ -33,10 +33,6 @@ header nav a {
   font-size: 30px;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -44,16 +40,15 @@ header nav ul li {
 
 a {
   color: #f7f9f9;
-  text-decoration: none;
-  text-shadow: 3px 3px 5px #44624a;
+  font-size: 25px;
 }
 
 a:hover {
   text-shadow: 3px 3px 5px #44624a;
 }
 
-nav ul li:hover {
-  text-shadow: 3px 3px 5px #8ba888;
+ul li:hover {
+  text-shadow: 3px 3px 5px #f7f9f9;
   transition-delay: 0.2s;
 }
 
@@ -87,7 +82,7 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #resume {
@@ -154,7 +149,7 @@ p {
   min-width: 400px;
 }
 
-.web-apps:hover {
+.screenshot:hover {
   color: #111;
   background: #f7f9f9;
   box-shadow: 0 0 20px #f7f9f9;
