@@ -4,12 +4,8 @@
   margin: 0;
 }
 
-body {
-  background-color: #f1ebe1;
-}
-
 header {
-  padding: 20px;
+  padding: 30px;
   font-family: "Josefin Sans", sans-serif;
   background-color: #44624a;
   color: #f7f9f9;
@@ -26,7 +22,7 @@ header nav {
   margin-right: 30px;
   float: right;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 header nav ul {
@@ -43,15 +39,33 @@ a {
   text-decoration: none;
 }
 
+nav ul li:hover {
+  text-shadow: 3px 3px 5px #8ba888;
+  transition-delay: 0.2s;
+}
+
+.info-list:hover {
+  box-shadow: 0 0 20px #f1ebe1;
+  transition-delay: 0.2;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-color: #f1ebe1;
+}
+
 p {
   font-size: 18px;
 }
 
-#hero {
-  width: stretch;
-  margin-bottom: 25px;
-  object-fit: fill;
-  background-position: center;
+#resume {
+  font-size: 25px;
 }
 
 .content {
@@ -71,6 +85,7 @@ p {
 
 .info-list img {
   max-height: 200px;
+  margin: 20px;
 }
 
 .info-list h2 {
@@ -78,13 +93,18 @@ p {
   font-size: 36px;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-  background-color: transparent;
-}
-
 .float-right {
   float: right;
   margin-left: 25px;
+}
+
+.web-apps {
+  float: left;
+  margin-left: 25px;
+}
+
+.web-apps:hover {
+  color: #111;
+  background: #f7f9f9;
+  box-shadow: 0 0 20px #f7f9f9;
 }
