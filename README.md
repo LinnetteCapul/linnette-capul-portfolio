@@ -1,19 +1,20 @@
-# linnette-capul-portfolio
-
-# Horiseon Online Marketing Agency Website
+Linnette Capul, web developer in training
 
 ## Description
 
-A marketing agency, Horiseon, reached out to have their codebase updated to accessibility standards so their website is more optimized for search engines and easier accessible to people with disabilities. The webpage meets accessibility standards such that each image, figure, and icon has accessibility alt attributes describing what they look like. The source code has been updated with proper semantic HTML elements along with CSS to match the updated HTML elements. The structure of HTML and CSS codes have been condensed and structured in sequential order. The title of the website has been changed so that it describes what the website is: _Horiseon Online Marketing Agency_
+Hello! My name is Linnette and I have recently discovered the world of possibilities in web development. I first realized my interest in web development in 2021 when I was supporting a website project for a non-profit I had worked with. From there, I wanted to learn the ins and outs of web development. It such an immersive world of possibilities and creativity. It's almost like magic in some cases, and I want to be a part of the magic! Currently, I am a student in UCLA Extension - Full Stack Web Development program where I will learn to strengthen my skills in HTML, CSS, JavaScript and much more.
 
 ## Links
 
-- GitHub Repository Link: https://linnettecapul.github.io/horiseon-online-marketing-agency/
+- GitHub Repository Link: https://github.com/LinnetteCapul/linnette-capul-portfolio
 
-- Website Link: https://linnettecapul.github.io/horiseon-online-marketing-agency/#social-media-marketing
+- Website Link: https://linnettecapul.github.io/linnette-capul-portfolio/
 
 ## Screenshots
 
-![horiseon-screenshot](https://user-images.githubusercontent.com/98931043/154786834-9a848475-52fd-46aa-b2ba-7e01a153895d.jpg)
+![horiseon-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/linnette-capul-portfolio/main/assets/images/horiseon-screenshot02.JPG)
+Project: Improved an online marketing agency's website to update their accesibility standards in order to optimize it for search engines and an easier user experience for people with disabilities. This was done through code refactor for their HTML and CSS code.
 
-![horiseon-screenshot-02](https://user-images.githubusercontent.com/98931043/154788420-66f237ee-4c07-4363-8304-b73146af8c5c.jpg)
+![bts-homepage-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/linnette-capul-portfolio/main/assets/images/bts-homepage-screenshot02.JPG)
+
+![seventeen-wikia-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/linnette-capul-portfolio/main/assets/images/seventeen-wikia-screenshot02.JPG)
