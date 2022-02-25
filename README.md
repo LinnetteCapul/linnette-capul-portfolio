@@ -12,6 +12,8 @@ Hello! My name is Linnette and I have recently discovered the world of possibili
 
 ## Screenshots
 
+![portfolio-website-screenshot](https://raw.githubusercontent.com/LinnetteCapul/linnette-capul-portfolio/main/assets/images/portfolio-website-screenshot.JPG)
+
 ![horiseon-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/linnette-capul-portfolio/main/assets/images/horiseon-screenshot02.JPG)
 Project: Improved an online marketing agency's website to update their accesibility standards in order to optimize it for search engines and an easier user experience for people with disabilities. This was done through code refactor for their HTML and CSS code.
 
