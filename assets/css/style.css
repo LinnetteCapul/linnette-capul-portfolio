@@ -47,6 +47,7 @@ header h1 {
 a {
   color: #f7f9f9;
   font-size: 30px;
+  text-decoration: none;
 }
 
 a:hover {
@@ -111,30 +112,47 @@ a:hover {
   color: #41463c;
 }
 
-#avatar {
+#avatar img {
   max-height: 400px;
   margin: 30px;
   flex: 1 1 300px;
 }
+/* 
+  All screenshot images start on the left of page and adjusted based on the window ratio as well as have a box shadow when user hovers over a screenshot. First screenshot is bigger than second and third screenshots even when window ratios are changed.
+*/
 
 .screenshot {
+  background-color: rgb(173, 152, 194);
+  max-width: 500px;
+}
+
+.screenshot img {
+  width: 100%;
+  display: block;
+}
+
+.major-image {
+  max-width: 600px;
+}
+
+/* .screenshot img {
   justify-content: flex-start;
   display: flex;
 }
 
-.main-image {
+.major-image img {
   margin: 15px 10px 30px;
   flex: 1 0 300px;
   max-width: 70%;
 }
 
-.minor-image {
+.minor-image img {
   margin: 15px 30px;
   flex: 1 0 200px;
   max-width: 60%;
-}
+} */
 
-.screenshot:hover {
+.screenshot img:hover {
   color: #111;
   background: #f7f9f9;
   box-shadow: 0 0 15px #f7f9f9;
