@@ -117,13 +117,19 @@ a:hover {
   margin: 30px;
   flex: 1 1 300px;
 }
-/* 
-  All screenshot images start on the left of page and adjusted based on the window ratio as well as have a box shadow when user hovers over a screenshot. First screenshot is bigger than second and third screenshots even when window ratios are changed.
-*/
+
+.screenshot-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
 
 .screenshot {
-  background-color: rgb(173, 152, 194);
-  max-width: 500px;
+  min-width: 300px;
+  max-width: 400px;
+  flex: 1 0 400px;
+  margin: 20px;
 }
 
 .screenshot img {
@@ -132,25 +138,10 @@ a:hover {
 }
 
 .major-image {
-  max-width: 600px;
+  min-width: 400px;
+  max-width: 500px;
+  flex: 1 0 500px;
 }
-
-/* .screenshot img {
-  justify-content: flex-start;
-  display: flex;
-}
-
-.major-image img {
-  margin: 15px 10px 30px;
-  flex: 1 0 300px;
-  max-width: 70%;
-}
-
-.minor-image img {
-  margin: 15px 30px;
-  flex: 1 0 200px;
-  max-width: 60%;
-} */
 
 .screenshot img:hover {
   color: #111;
