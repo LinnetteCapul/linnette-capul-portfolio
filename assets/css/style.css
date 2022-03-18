@@ -145,11 +145,11 @@ a:hover {
   margin: 20px 30px;
 }
 
-.minor-bts {
+.minor-horiseon {
   order: 0;
 }
 
-.minor-seventeen {
+.minor-planner {
   order: 2;
 }
 
@@ -174,10 +174,10 @@ footer {
   .major-image {
     order: 0;
   }
-  .minor-bts {
+  .minor-horiseon {
     order: 1;
   }
-  .minor-seventeen {
+  .minor-planner {
     order: 2;
   }
 }
